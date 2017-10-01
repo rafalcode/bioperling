@@ -1,0 +1,110 @@
+########################################
+# Program: matcher
+# Rundate: Mon  9 May 2016 17:13:56
+# Commandline: matcher
+#    -outfile uit3.wa
+#    -alternatives 2
+#    -bsequence /tmp/Bkb2bgcTXU/SoEA7HkRrW
+#    -asequence /tmp/Bkb2bgcTXU/a5VqnuJD1R
+#    -aformat markx10
+#    -auto
+# Align_format: markx10
+# Report_file: uit3.wa
+########################################
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: seq1
+# 2: seq2
+# Matrix: EBLOSUM62
+# Gap_penalty: 14
+# Extend_penalty: 4
+#
+# Length: 141
+# Identity:      56/141 (39.7%)
+# Similarity:    83/141 (58.9%)
+# Gaps:           1/141 ( 0.7%)
+# Score: 271
+# 
+#
+#=======================================
+
+>>>seq1, 758 aa vs seq2, 313 aa
+; mp_name: EMBOSS
+; mp_ver: 6.6.0.0
+; pg_name: matcher
+; pg_ver: 6.6.0.0
+; pg_matrix: EBLOSUM62
+; pg_gap-pen: -14 -4
+>>#1
+; sw_score: 271
+; sw_ident: 0.397
+; sw_overlap: 141
+>seq1 ..
+; sq_len: 758
+; sq_type: p
+; al_start: 474
+; al_stop: 614
+; al_display_start: 474
+CLVQLGKLHFEIINYDMSLKYFNRLKDLQPARVKDMEIFSTLLWHLHDKV
+KSSNLANGLMDTMPNKPETWCCIGNLLSLQKDHDAAIKAFEKATQLDPNF
+AYAYTLQGHEHSSNDSSDSAKTCYRKALACDPQHYNAYYGL
+>seq2 ..
+; sq_len: 313
+; sq_type: p
+; al_start: 1
+; al_stop: 140
+; al_display_start: 1
+CLIFXRLLLIQMI-HPQARRAFTFLQQQEPYRIQSMEQLSTLLWHLADLP
+ALSHLSQSLISISRSSPQAWIAVGNCFSLQKDHDEAMRCFRRATQVDEGC
+AYAWTLCGYEAVEMEEYERAMAFYRTAIRTDARHYNAWYVL
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: seq1
+# 2: seq2
+# Matrix: EBLOSUM62
+# Gap_penalty: 14
+# Extend_penalty: 4
+#
+# Length: 92
+# Identity:      30/92 (32.6%)
+# Similarity:    49/92 (53.3%)
+# Gaps:           0/92 ( 0.0%)
+# Score: 128
+# 
+#
+#=======================================
+
+>>>seq1, 758 aa vs seq2, 313 aa
+; mp_name: EMBOSS
+; mp_ver: 6.6.0.0
+; pg_name: matcher
+; pg_ver: 6.6.0.0
+; pg_matrix: EBLOSUM62
+; pg_gap-pen: -14 -4
+>>#2
+; sw_score: 128
+; sw_ident: 0.326
+; sw_overlap: 92
+>seq1 ..
+; sq_len: 758
+; sq_type: p
+; al_start: 651
+; al_stop: 742
+; al_display_start: 651
+SLEKLGYKEKALQYYELACHLQPTSSLSKYKMGQLLYSMTRYNVALQTFE
+ELVKLVPDDATAHYLLGQTYRIVGRKKDAIKELTVAMNLDPK
+>seq2 ..
+; sq_len: 313
+; sq_type: p
+; al_start: 222
+; al_stop: 313
+; al_display_start: 222
+ALEKSNDVVQALHFYERASKYAPTSAMVQFKRIRALVALQRYDEAISALV
+PLTHSAPDEANVFFLLGKCLLKKERRQEATMAFTNARELEPK
+
+#---------------------------------------
+#---------------------------------------

@@ -1,0 +1,74 @@
+########################################
+# Program: matcher
+# Rundate: Mon  9 May 2016 12:21:26
+# Commandline: matcher
+#    -alternatives 2
+#    -aformat pair
+#    -outfile uit2.wa
+#    -bsequence /tmp/xP4k7uonjf/PhwC0EwhRZ
+#    -asequence /tmp/xP4k7uonjf/K70_OlWIbQ
+#    -auto
+# Align_format: pair
+# Report_file: uit2.wa
+########################################
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: seq1
+# 2: seq2
+# Matrix: EBLOSUM62
+# Gap_penalty: 14
+# Extend_penalty: 4
+#
+# Length: 141
+# Identity:      56/141 (39.7%)
+# Similarity:    83/141 (58.9%)
+# Gaps:           1/141 ( 0.7%)
+# Score: 271
+# 
+#
+#=======================================
+
+seq1             474 CLVQLGKLHFEIINYDMSLKYFNRLKDLQPARVKDMEIFSTLLWHLHDKV    523
+                     ||:....|..::| :..:.:.|..|:..:|.|::.||..|||||||.|..
+seq2               1 CLIFXRLLLIQMI-HPQARRAFTFLQQQEPYRIQSMEQLSTLLWHLADLP     49
+
+seq1             524 KSSNLANGLMDTMPNKPETWCCIGNLLSLQKDHDAAIKAFEKATQLDPNF    573
+                     ..|:|:..|:....:.|:.|..:||..|||||||.|::.|.:|||:|...
+seq2              50 ALSHLSQSLISISRSSPQAWIAVGNCFSLQKDHDEAMRCFRRATQVDEGC     99
+
+seq1             574 AYAYTLQGHEHSSNDSSDSAKTCYRKALACDPQHYNAYYGL    614
+                     |||:||.|:|....:..:.|...||.|:..|.:||||:|.|
+seq2             100 AYAWTLCGYEAVEMEEYERAMAFYRTAIRTDARHYNAWYVL    140
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: seq1
+# 2: seq2
+# Matrix: EBLOSUM62
+# Gap_penalty: 14
+# Extend_penalty: 4
+#
+# Length: 92
+# Identity:      30/92 (32.6%)
+# Similarity:    49/92 (53.3%)
+# Gaps:           0/92 ( 0.0%)
+# Score: 128
+# 
+#
+#=======================================
+
+seq1             651 SLEKLGYKEKALQYYELACHLQPTSSLSKYKMGQLLYSMTRYNVALQTFE    700
+                     :|||.....:||.:||.|....|||::.::|..:.|.::.||:.|:....
+seq2             222 ALEKSNDVVQALHFYERASKYAPTSAMVQFKRIRALVALQRYDEAISALV    271
+
+seq1             701 ELVKLVPDDATAHYLLGQTYRIVGRKKDAIKELTVAMNLDPK    742
+                     .|....||:|...:|||:......|:::|....|.|..|:||
+seq2             272 PLTHSAPDEANVFFLLGKCLLKKERRQEATMAFTNARELEPK    313
+
+
+#---------------------------------------
+#---------------------------------------

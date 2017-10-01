@@ -1,0 +1,1163 @@
+########################################
+# Program: water
+# Rundate: Fri 13 May 2016 12:07:51
+# Commandline: water
+#    -bsequence /tmp/xwKbOOdHna/7pmLeaVib3
+#    -outfile out.water
+#    -gapextend 0.5
+#    -asequence /tmp/xwKbOOdHna/_cwVKxIZ04
+#    -gapopen 10.0
+#    -auto
+# Align_format: srspair
+# Report_file: out.water
+########################################
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: ENSONIT00000001474
+# 2: ENSONIT00000001474
+# Matrix: EDNAFULL
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 1151
+# Identity:     400/1151 (34.8%)
+# Similarity:   400/1151 (34.8%)
+# Gaps:         660/1151 (57.3%)
+# Score: 574.5
+# 
+#
+#=======================================
+
+ENSONIT000000   1391 AAAACACCACCTACT-CCATCTTTTCAATCTCCATCACCCTAACTGATGA   1439
+                     |||.|.||.|||.|| ||                   |||||        
+ENSONIT000000      4 AAATCCCCCCCTCCTGCC-------------------CCCTA--------     26
+
+ENSONIT000000   1440 GGGTTTCCAAAACTTCTACAAGGTGACTCACCTGGTGTTCCAGTACCTGA   1489
+                          |||                    |.|.|||    ||.||.|||  
+ENSONIT000000     27 -----TCC--------------------CCCGTGG----CCTGTGCCT--     45
+
+ENSONIT000000   1490 AGATGTTGCAGACACTT---GGACC--ACAACAAAG---GATATATGAAG   1531
+                               |.|||.|   ||.||  |.|||||.|   .||||.|||||
+ENSONIT000000     46 ----------GCCACCTAGCGGCCCCTAAAACAATGAGCCATATGTGAAG     85
+
+ENSONIT000000   1532 AGATTCAGAGGATTGAAGCAAATGAGTTTCACTATCAGGAGCAAATTGAT   1581
+                     |                         .||||    ||.|.||||      
+ENSONIT000000     86 A-------------------------CTTCA----CAAGTGCAA------    100
+
+ENSONIT000000   1582 CCTATAGAGTACGTG--GAGG-ACA---TTTGTGAA-AACATGCAACTGT   1624
+                     |||.|       |||  |||| |||   |||.|||| .||| |..|||.|
+ENSONIT000000    101 CCTGT-------GTGGTGAGGCACAGTTTTTCTGAAGTACA-GATACTAT    142
+
+ENSONIT000000   1625 T---------CCCTAAAGAAGACTTCCTGACAGGAGATCAGTTGATGTTT   1665
+                     |         ||       ||     ||||||.||.|.||        ||
+ENSONIT000000    143 TATTATGTCACC-------AG-----CTGACAAGACAGCA--------TT    172
+
+ENSONIT000000   1666 GAGTTCAATCCAGAAGTGATCAGTGCAGCTCTGTCTCTCCTCACCCCTGA   1715
+                     .|.|||||                  |||            ||||.||||
+ENSONIT000000    173 CACTTCAA------------------AGC------------CACCTCTGA    192
+
+ENSONIT000000   1716 GAAAGCCAACCTGATGCTGTTGTCACCAGAACATGAGGGCCAGTGTCCCC   1765
+                     ||          |.|..|||||                          ||
+ENSONIT000000    193 GA----------GTTCATGTTG--------------------------CC    206
+
+ENSONIT000000   1766 TCAGGGAGAAGTGGTTTGGCACACAATACAGCATGGAGGATATCCAGCAA   1815
+                     |                                  |||||          
+ENSONIT000000    207 T----------------------------------GAGGA----------    212
+
+ENSONIT000000   1816 GAGTGGATGGAGCAGTGGACAGGAAACCTGGAGCTTAACGCTGACCTCCA   1865
+                          ||||            .|||||        |||    |||.|..|
+ENSONIT000000    213 -----GATG------------AGAAAC--------TAA----GACATTTA    233
+
+ENSONIT000000   1866 CCTTCCTGCAGAGAATAAGTTCATTGCCACTGACTTCACCCTGAAGCCCT   1915
+                     |||               ||| ||                          
+ENSONIT000000    234 CCT---------------GTT-AT--------------------------    241
+
+ENSONIT000000   1916 CTGACTGCCCAGACACCGAGTTCCCAGTCCGGATAGCCGACAGCGACAGG   1965
+                                ||||                          ||||     
+ENSONIT000000    242 -----------GACA--------------------------AGCG-----    249
+
+ENSONIT000000   1966 GGCTGCCTGTGGTACAAGAAAGATAACCATGCAAGATGTTATTTTAAAGC   2015
+                         |||.||         ||||||              ||||.|.|| .
+ENSONIT000000    250 ----GCCGGT---------AAGATA--------------TATTATCAA-T    271
+
+ENSONIT000000   2016 CTAC--GTCAGATTCCACTTAATCTCTCCAGTAATCCAGCAATCCGCTAA   2063
+                     ||||  ||||         |||||      .|||.|             |
+ENSONIT000000    272 CTACTGGTCA---------TAATC------ATAAAC-------------A    293
+
+ENSONIT000000   2064 GAATGTGGTCTTGTTTGACCTTC----TGGTAAACATTCTGGGCCACAAC   2109
+                     | ||||    .||||||  |.||    |||        |||        |
+ENSONIT000000    294 G-ATGT----CTGTTTG--CATCCAGGTGG--------CTG--------C    320
+
+ENSONIT000000   2110 CTGGCAGAGCCAG--CCTATGAGGCTGAAGTGGCCCAGTTGGAGTATAAA   2157
+                     |||.||..|.|.|  ||   |.|.||||||    |..|||..|...|||.
+ENSONIT000000    321 CTGTCATTGTCCGTCCC---GGGCCTGAAG----CTTGTTACAACGTAAC    363
+
+ENSONIT000000   2158 CTGGTTGCTGGTGAGCACGGACTGGTCATCAAA-----GTTAA-----AG   2197
+                     |     |||       .|.|||||.|||.|..|     |||||     | 
+ENSONIT000000    364 C-----GCT-------CCTGACTGCTCAGCGCACACGTGTTAACACCCA-    400
+
+ENSONIT000000   2198 GATTTAACCACAAGCTTCCTTTGATGTTTCACCT-GA-TCATTGACCACC   2245
+                          ||||||  ||.||||    |||   .||| || .||.|.||||.|
+ENSONIT000000    401 -----AACCAC--GCCTCCT----TGT---CCCTAGAGCCAATCACCAGC    436
+
+ENSONIT000000   2246 TGGCAGATTTC-TCGGCCTCCCCTGACGTCTTCAGCATGTTCGCAGAGCA   2294
+                     .|.||.|.||| .||           |||||||                 
+ENSONIT000000    437 CGTCATAGTTCAGCG-----------CGTCTTC-----------------    458
+
+ENSONIT000000   2295 GCTCAAAAAGACCTACTTCAACATCCTCATTAAACCTGAGAAACTCAGCA   2344
+                      |||             |||.||                 ||.|.|||||
+ENSONIT000000    459 -CTC-------------TCAGCA-----------------AATCACAGCA    477
+
+ENSONIT000000   2345 AGGACGTGCGCTTGTTGATCTTGGAGCACTCTCGCTGGTCCATGGTGGAC   2394
+                     |          |.||||.|.|||                   |||.||||
+ENSONIT000000    478 A----------TCGTTGTTGTTG-------------------TGGGGGAC    498
+
+ENSONIT000000   2395 AAATATCAGGCTCTAACAGCTGGTTTGACCACTGAAGAGCTGACGGAGTT   2444
+                      |.|..||||||                               |.|||  
+ENSONIT000000    499 -ATTCGCAGGCT-------------------------------CCGAG--    514
+
+ENSONIT000000   2445 CAGCCGGAGCTTCAGAGCTGAGCTCTTTGCAGAGGGACTGGTGCAAGGGA   2494
+                       |||    ||||  .||||   ||..|    |||||          |||
+ENSONIT000000    515 --GCC----CTTC--TGCTG---TCGGT----AGGGA----------GGA    539
+
+ENSONIT000000   2495 A   2495
+                     |
+ENSONIT000000    540 A    540
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: ENSONIT00000001474
+# 2: ENSONIT00000001474
+# Matrix: EDNAFULL
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 203
+# Identity:     203/203 (100.0%)
+# Similarity:   203/203 (100.0%)
+# Gaps:           0/203 ( 0.0%)
+# Score: 1015.0
+# 
+#
+#=======================================
+
+ENSONIT000000      1 ATGCCGCAAACAAACAAGTCAAGAAACGCCCCGGCGGTTGACTCTCCGGG     50
+                     ||||||||||||||||||||||||||||||||||||||||||||||||||
+ENSONIT000000    122 ATGCCGCAAACAAACAAGTCAAGAAACGCCCCGGCGGTTGACTCTCCGGG    171
+
+ENSONIT000000     51 CTCGGTCCAAGTGGGAGCTTCAGCAGAAGCTACAGAGCCGGCGTCCCGGG    100
+                     ||||||||||||||||||||||||||||||||||||||||||||||||||
+ENSONIT000000    172 CTCGGTCCAAGTGGGAGCTTCAGCAGAAGCTACAGAGCCGGCGTCCCGGG    221
+
+ENSONIT000000    101 AGGAGATTCAGGCTGCCGGGGACTCGGGAAGAGGGGGGGAAGCTGAGGAT    150
+                     ||||||||||||||||||||||||||||||||||||||||||||||||||
+ENSONIT000000    222 AGGAGATTCAGGCTGCCGGGGACTCGGGAAGAGGGGGGGAAGCTGAGGAT    271
+
+ENSONIT000000    151 AATGTCGGTGACAGAGAGATCATCAAATCACCCAGTGACCCCAAACAGTA    200
+                     ||||||||||||||||||||||||||||||||||||||||||||||||||
+ENSONIT000000    272 AATGTCGGTGACAGAGAGATCATCAAATCACCCAGTGACCCCAAACAGTA    321
+
+ENSONIT000000    201 CAG    203
+                     |||
+ENSONIT000000    322 CAG    324
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: ENSONIT00000001474
+# 2: ENSONIT00000001474
+# Matrix: EDNAFULL
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 241
+# Identity:     241/241 (100.0%)
+# Similarity:   241/241 (100.0%)
+# Gaps:           0/241 ( 0.0%)
+# Score: 1205.0
+# 
+#
+#=======================================
+
+ENSONIT000000    204 GTACATTGTGTTAGAAAACGGGCTGCGAGCTCTGCTCATCTCAGATTACA    253
+                     ||||||||||||||||||||||||||||||||||||||||||||||||||
+ENSONIT000000      1 GTACATTGTGTTAGAAAACGGGCTGCGAGCTCTGCTCATCTCAGATTACA     50
+
+ENSONIT000000    254 GCGGACCGACAGAAGATGGAGAGTCAGATGAAGGCGAAGAAGAAGAGGAG    303
+                     ||||||||||||||||||||||||||||||||||||||||||||||||||
+ENSONIT000000     51 GCGGACCGACAGAAGATGGAGAGTCAGATGAAGGCGAAGAAGAAGAGGAG    100
+
+ENSONIT000000    304 GAGGAGGAGGAGGACGACGACAATGATGAATCTGAAGATGGATCAGAGGA    353
+                     ||||||||||||||||||||||||||||||||||||||||||||||||||
+ENSONIT000000    101 GAGGAGGAGGAGGACGACGACAATGATGAATCTGAAGATGGATCAGAGGA    150
+
+ENSONIT000000    354 TGGGTCTGAGGAAGATGACGAAGATGAGGGCAGCGATGATGAAGATGATT    403
+                     ||||||||||||||||||||||||||||||||||||||||||||||||||
+ENSONIT000000    151 TGGGTCTGAGGAAGATGACGAAGATGAGGGCAGCGATGATGAAGATGATT    200
+
+ENSONIT000000    404 ACAATGAGGGGAAAAAGAAGAAAGGAAATGCAGAGAAACAG    444
+                     |||||||||||||||||||||||||||||||||||||||||
+ENSONIT000000    201 ACAATGAGGGGAAAAAGAAGAAAGGAAATGCAGAGAAACAG    241
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: ENSONIT00000001474
+# 2: ENSONIT00000001474
+# Matrix: EDNAFULL
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 38
+# Identity:      38/38 (100.0%)
+# Similarity:    38/38 (100.0%)
+# Gaps:           0/38 ( 0.0%)
+# Score: 190.0
+# 
+#
+#=======================================
+
+ENSONIT000000    445 GAAAATAAAGACAAGTTTAATTTTTTACAAGCTTTAAA    482
+                     ||||||||||||||||||||||||||||||||||||||
+ENSONIT000000      1 GAAAATAAAGACAAGTTTAATTTTTTACAAGCTTTAAA     38
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: ENSONIT00000001474
+# 2: ENSONIT00000001474
+# Matrix: EDNAFULL
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 26
+# Identity:      26/26 (100.0%)
+# Similarity:    26/26 (100.0%)
+# Gaps:           0/26 ( 0.0%)
+# Score: 130.0
+# 
+#
+#=======================================
+
+ENSONIT000000    483 ATGTGAGGTTCGCGTGTCTGCTGATA    508
+                     ||||||||||||||||||||||||||
+ENSONIT000000      1 ATGTGAGGTTCGCGTGTCTGCTGATA     26
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: ENSONIT00000001474
+# 2: ENSONIT00000001474
+# Matrix: EDNAFULL
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 23
+# Identity:      23/23 (100.0%)
+# Similarity:    23/23 (100.0%)
+# Gaps:           0/23 ( 0.0%)
+# Score: 115.0
+# 
+#
+#=======================================
+
+ENSONIT000000    509 AGAAGGAAACCTTAAAGACAGAG    531
+                     |||||||||||||||||||||||
+ENSONIT000000      1 AGAAGGAAACCTTAAAGACAGAG     23
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: ENSONIT00000001474
+# 2: ENSONIT00000001474
+# Matrix: EDNAFULL
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 82
+# Identity:      82/82 (100.0%)
+# Similarity:    82/82 (100.0%)
+# Gaps:           0/82 ( 0.0%)
+# Score: 410.0
+# 
+#
+#=======================================
+
+ENSONIT000000    532 TCTGCGGCAGCGTTGTGTGTTGGTGTGGGCAGCTTCAGTGACCCCAGCGA    581
+                     ||||||||||||||||||||||||||||||||||||||||||||||||||
+ENSONIT000000      1 TCTGCGGCAGCGTTGTGTGTTGGTGTGGGCAGCTTCAGTGACCCCAGCGA     50
+
+ENSONIT000000    582 TCTCCCCGGCCTCGCTCACTTTCTGGAACACA    613
+                     ||||||||||||||||||||||||||||||||
+ENSONIT000000     51 TCTCCCCGGCCTCGCTCACTTTCTGGAACACA     82
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: ENSONIT00000001474
+# 2: ENSONIT00000001474
+# Matrix: EDNAFULL
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 154
+# Identity:     154/154 (100.0%)
+# Similarity:   154/154 (100.0%)
+# Gaps:           0/154 ( 0.0%)
+# Score: 770.0
+# 
+#
+#=======================================
+
+ENSONIT000000    614 TGGTGTTCATGGGCAGTGAGAAGTATCCATCAGAAAACGGCTTTGATGCT    663
+                     ||||||||||||||||||||||||||||||||||||||||||||||||||
+ENSONIT000000      1 TGGTGTTCATGGGCAGTGAGAAGTATCCATCAGAAAACGGCTTTGATGCT     50
+
+ENSONIT000000    664 TTCCTCAAGAAGCACGGTGGGAGCGACAATGCCTCCACGGACTGTGAGAG    713
+                     ||||||||||||||||||||||||||||||||||||||||||||||||||
+ENSONIT000000     51 TTCCTCAAGAAGCACGGTGGGAGCGACAATGCCTCCACGGACTGTGAGAG    100
+
+ENSONIT000000    714 GACCATCTTCCAGTTTGACATTCAGAGGAAAAACTTCAAAGAGGCTCTTG    763
+                     ||||||||||||||||||||||||||||||||||||||||||||||||||
+ENSONIT000000    101 GACCATCTTCCAGTTTGACATTCAGAGGAAAAACTTCAAAGAGGCTCTTG    150
+
+ENSONIT000000    764 ACAG    767
+                     ||||
+ENSONIT000000    151 ACAG    154
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: ENSONIT00000001474
+# 2: ENSONIT00000001474
+# Matrix: EDNAFULL
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 74
+# Identity:      74/74 (100.0%)
+# Similarity:    74/74 (100.0%)
+# Gaps:           0/74 ( 0.0%)
+# Score: 370.0
+# 
+#
+#=======================================
+
+ENSONIT000000    768 GTGGGCACAGTTCTTCATCTGCCCCCTGATGATTCGGGATGCCATTGACA    817
+                     ||||||||||||||||||||||||||||||||||||||||||||||||||
+ENSONIT000000      1 GTGGGCACAGTTCTTCATCTGCCCCCTGATGATTCGGGATGCCATTGACA     50
+
+ENSONIT000000    818 GGGAAGTGGAGGCTGTTGACAGTG    841
+                     ||||||||||||||||||||||||
+ENSONIT000000     51 GGGAAGTGGAGGCTGTTGACAGTG     74
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: ENSONIT00000001474
+# 2: ENSONIT00000001474
+# Matrix: EDNAFULL
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 96
+# Identity:      96/96 (100.0%)
+# Similarity:    96/96 (100.0%)
+# Gaps:           0/96 ( 0.0%)
+# Score: 480.0
+# 
+#
+#=======================================
+
+ENSONIT000000    842 AGTACCAGCTGGCTAAGCCATCTGACTCCCACAGGAAGGAGATGCTATTT    891
+                     ||||||||||||||||||||||||||||||||||||||||||||||||||
+ENSONIT000000      1 AGTACCAGCTGGCTAAGCCATCTGACTCCCACAGGAAGGAGATGCTATTT     50
+
+ENSONIT000000    892 GGCAGTCTGGCCAAACCTGGACACCCTATGGGCAAGTTCTGCTGGG    937
+                     ||||||||||||||||||||||||||||||||||||||||||||||
+ENSONIT000000     51 GGCAGTCTGGCCAAACCTGGACACCCTATGGGCAAGTTCTGCTGGG     96
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: ENSONIT00000001474
+# 2: ENSONIT00000001474
+# Matrix: EDNAFULL
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 123
+# Identity:     123/123 (100.0%)
+# Similarity:   123/123 (100.0%)
+# Gaps:           0/123 ( 0.0%)
+# Score: 615.0
+# 
+#
+#=======================================
+
+ENSONIT000000    938 GGAATGCGGAGACACTGAAGCAGGAGCCCAAAAGAATGAAGATCAATGTG    987
+                     ||||||||||||||||||||||||||||||||||||||||||||||||||
+ENSONIT000000      1 GGAATGCGGAGACACTGAAGCAGGAGCCCAAAAGAATGAAGATCAATGTG     50
+
+ENSONIT000000    988 TATAAGCGGTTGCGTGCCTTCTGGAAGAAATACTACTCTGCCCACTACAT   1037
+                     ||||||||||||||||||||||||||||||||||||||||||||||||||
+ENSONIT000000     51 TATAAGCGGTTGCGTGCCTTCTGGAAGAAATACTACTCTGCCCACTACAT    100
+
+ENSONIT000000   1038 GACTCTGGCTGTGCAGTCAAAAG   1060
+                     |||||||||||||||||||||||
+ENSONIT000000    101 GACTCTGGCTGTGCAGTCAAAAG    123
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: ENSONIT00000001474
+# 2: ENSONIT00000001474
+# Matrix: EDNAFULL
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 58
+# Identity:      58/58 (100.0%)
+# Similarity:    58/58 (100.0%)
+# Gaps:           0/58 ( 0.0%)
+# Score: 290.0
+# 
+#
+#=======================================
+
+ENSONIT000000   1061 AGAAGCTGGACACTCTGGAGGAGTGGGTCAGAGAGATCTTCAGCAAGGTG   1110
+                     ||||||||||||||||||||||||||||||||||||||||||||||||||
+ENSONIT000000      1 AGAAGCTGGACACTCTGGAGGAGTGGGTCAGAGAGATCTTCAGCAAGGTG     50
+
+ENSONIT000000   1111 CCTAACAA   1118
+                     ||||||||
+ENSONIT000000     51 CCTAACAA     58
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: ENSONIT00000001474
+# 2: ENSONIT00000001474
+# Matrix: EDNAFULL
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 74
+# Identity:      74/74 (100.0%)
+# Similarity:    74/74 (100.0%)
+# Gaps:           0/74 ( 0.0%)
+# Score: 370.0
+# 
+#
+#=======================================
+
+ENSONIT000000   1119 TGGTTTGCCCAAGCCAGATTTCTCTGATATGCTGGATCCTTTTGACACAA   1168
+                     ||||||||||||||||||||||||||||||||||||||||||||||||||
+ENSONIT000000      1 TGGTTTGCCCAAGCCAGATTTCTCTGATATGCTGGATCCTTTTGACACAA     50
+
+ENSONIT000000   1169 CGGCTTTCAGCAAGCTCTACAGAG   1192
+                     ||||||||||||||||||||||||
+ENSONIT000000     51 CGGCTTTCAGCAAGCTCTACAGAG     74
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: ENSONIT00000001474
+# 2: ENSONIT00000001474
+# Matrix: EDNAFULL
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 70
+# Identity:      70/70 (100.0%)
+# Similarity:    70/70 (100.0%)
+# Gaps:           0/70 ( 0.0%)
+# Score: 350.0
+# 
+#
+#=======================================
+
+ENSONIT000000   1193 TTGTCCCTGTCGGGAAAGTTCATGCTCTGAATATCACCTGGGCTCTTCCT   1242
+                     ||||||||||||||||||||||||||||||||||||||||||||||||||
+ENSONIT000000      1 TTGTCCCTGTCGGGAAAGTTCATGCTCTGAATATCACCTGGGCTCTTCCT     50
+
+ENSONIT000000   1243 CCTCAGGAGAAATACTACAG   1262
+                     ||||||||||||||||||||
+ENSONIT000000     51 CCTCAGGAGAAATACTACAG     70
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: ENSONIT00000001474
+# 2: ENSONIT00000001474
+# Matrix: EDNAFULL
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 78
+# Identity:      78/78 (100.0%)
+# Similarity:    78/78 (100.0%)
+# Gaps:           0/78 ( 0.0%)
+# Score: 390.0
+# 
+#
+#=======================================
+
+ENSONIT000000   1263 AGTGAAGCCTCTCCACTACATCTCTTGGCTGATTGGCCATGAAGGCACAG   1312
+                     ||||||||||||||||||||||||||||||||||||||||||||||||||
+ENSONIT000000      1 AGTGAAGCCTCTCCACTACATCTCTTGGCTGATTGGCCATGAAGGCACAG     50
+
+ENSONIT000000   1313 GAAGCATCCTCTCAGTGCTTAGGAAGAA   1340
+                     ||||||||||||||||||||||||||||
+ENSONIT000000     51 GAAGCATCCTCTCAGTGCTTAGGAAGAA     78
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: ENSONIT00000001474
+# 2: ENSONIT00000001474
+# Matrix: EDNAFULL
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 121
+# Identity:     121/121 (100.0%)
+# Similarity:   121/121 (100.0%)
+# Gaps:           0/121 ( 0.0%)
+# Score: 605.0
+# 
+#
+#=======================================
+
+ENSONIT000000   1341 GTGCTGGGCTGTGGCTTTGTTTGGAGGAAACAGTGAAACTGGCTTTGACC   1390
+                     ||||||||||||||||||||||||||||||||||||||||||||||||||
+ENSONIT000000      1 GTGCTGGGCTGTGGCTTTGTTTGGAGGAAACAGTGAAACTGGCTTTGACC     50
+
+ENSONIT000000   1391 AAAACACCACCTACTCCATCTTTTCAATCTCCATCACCCTAACTGATGAG   1440
+                     ||||||||||||||||||||||||||||||||||||||||||||||||||
+ENSONIT000000     51 AAAACACCACCTACTCCATCTTTTCAATCTCCATCACCCTAACTGATGAG    100
+
+ENSONIT000000   1441 GGTTTCCAAAACTTCTACAAG   1461
+                     |||||||||||||||||||||
+ENSONIT000000    101 GGTTTCCAAAACTTCTACAAG    121
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: ENSONIT00000001474
+# 2: ENSONIT00000001474
+# Matrix: EDNAFULL
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 59
+# Identity:      59/59 (100.0%)
+# Similarity:    59/59 (100.0%)
+# Gaps:           0/59 ( 0.0%)
+# Score: 295.0
+# 
+#
+#=======================================
+
+ENSONIT000000   1462 GTGACTCACCTGGTGTTCCAGTACCTGAAGATGTTGCAGACACTTGGACC   1511
+                     ||||||||||||||||||||||||||||||||||||||||||||||||||
+ENSONIT000000      1 GTGACTCACCTGGTGTTCCAGTACCTGAAGATGTTGCAGACACTTGGACC     50
+
+ENSONIT000000   1512 ACAACAAAG   1520
+                     |||||||||
+ENSONIT000000     51 ACAACAAAG     59
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: ENSONIT00000001474
+# 2: ENSONIT00000001474
+# Matrix: EDNAFULL
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 55
+# Identity:      55/55 (100.0%)
+# Similarity:    55/55 (100.0%)
+# Gaps:           0/55 ( 0.0%)
+# Score: 275.0
+# 
+#
+#=======================================
+
+ENSONIT000000   1521 GATATATGAAGAGATTCAGAGGATTGAAGCAAATGAGTTTCACTATCAGG   1570
+                     ||||||||||||||||||||||||||||||||||||||||||||||||||
+ENSONIT000000      1 GATATATGAAGAGATTCAGAGGATTGAAGCAAATGAGTTTCACTATCAGG     50
+
+ENSONIT000000   1571 AGCAA   1575
+                     |||||
+ENSONIT000000     51 AGCAA     55
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: ENSONIT00000001474
+# 2: ENSONIT00000001474
+# Matrix: EDNAFULL
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 105
+# Identity:     105/105 (100.0%)
+# Similarity:   105/105 (100.0%)
+# Gaps:           0/105 ( 0.0%)
+# Score: 525.0
+# 
+#
+#=======================================
+
+ENSONIT000000   1576 ATTGATCCTATAGAGTACGTGGAGGACATTTGTGAAAACATGCAACTGTT   1625
+                     ||||||||||||||||||||||||||||||||||||||||||||||||||
+ENSONIT000000      1 ATTGATCCTATAGAGTACGTGGAGGACATTTGTGAAAACATGCAACTGTT     50
+
+ENSONIT000000   1626 CCCTAAAGAAGACTTCCTGACAGGAGATCAGTTGATGTTTGAGTTCAATC   1675
+                     ||||||||||||||||||||||||||||||||||||||||||||||||||
+ENSONIT000000     51 CCCTAAAGAAGACTTCCTGACAGGAGATCAGTTGATGTTTGAGTTCAATC    100
+
+ENSONIT000000   1676 CAGAA   1680
+                     |||||
+ENSONIT000000    101 CAGAA    105
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: ENSONIT00000001474
+# 2: ENSONIT00000001474
+# Matrix: EDNAFULL
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 124
+# Identity:     124/124 (100.0%)
+# Similarity:   124/124 (100.0%)
+# Gaps:           0/124 ( 0.0%)
+# Score: 620.0
+# 
+#
+#=======================================
+
+ENSONIT000000   1681 GTGATCAGTGCAGCTCTGTCTCTCCTCACCCCTGAGAAAGCCAACCTGAT   1730
+                     ||||||||||||||||||||||||||||||||||||||||||||||||||
+ENSONIT000000      1 GTGATCAGTGCAGCTCTGTCTCTCCTCACCCCTGAGAAAGCCAACCTGAT     50
+
+ENSONIT000000   1731 GCTGTTGTCACCAGAACATGAGGGCCAGTGTCCCCTCAGGGAGAAGTGGT   1780
+                     ||||||||||||||||||||||||||||||||||||||||||||||||||
+ENSONIT000000     51 GCTGTTGTCACCAGAACATGAGGGCCAGTGTCCCCTCAGGGAGAAGTGGT    100
+
+ENSONIT000000   1781 TTGGCACACAATACAGCATGGAGG   1804
+                     ||||||||||||||||||||||||
+ENSONIT000000    101 TTGGCACACAATACAGCATGGAGG    124
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: ENSONIT00000001474
+# 2: ENSONIT00000001474
+# Matrix: EDNAFULL
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 87
+# Identity:      87/87 (100.0%)
+# Similarity:    87/87 (100.0%)
+# Gaps:           0/87 ( 0.0%)
+# Score: 435.0
+# 
+#
+#=======================================
+
+ENSONIT000000   1805 ATATCCAGCAAGAGTGGATGGAGCAGTGGACAGGAAACCTGGAGCTTAAC   1854
+                     ||||||||||||||||||||||||||||||||||||||||||||||||||
+ENSONIT000000      1 ATATCCAGCAAGAGTGGATGGAGCAGTGGACAGGAAACCTGGAGCTTAAC     50
+
+ENSONIT000000   1855 GCTGACCTCCACCTTCCTGCAGAGAATAAGTTCATTG   1891
+                     |||||||||||||||||||||||||||||||||||||
+ENSONIT000000     51 GCTGACCTCCACCTTCCTGCAGAGAATAAGTTCATTG     87
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: ENSONIT00000001474
+# 2: ENSONIT00000001474
+# Matrix: EDNAFULL
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 101
+# Identity:     101/101 (100.0%)
+# Similarity:   101/101 (100.0%)
+# Gaps:           0/101 ( 0.0%)
+# Score: 505.0
+# 
+#
+#=======================================
+
+ENSONIT000000   1892 CCACTGACTTCACCCTGAAGCCCTCTGACTGCCCAGACACCGAGTTCCCA   1941
+                     ||||||||||||||||||||||||||||||||||||||||||||||||||
+ENSONIT000000      1 CCACTGACTTCACCCTGAAGCCCTCTGACTGCCCAGACACCGAGTTCCCA     50
+
+ENSONIT000000   1942 GTCCGGATAGCCGACAGCGACAGGGGCTGCCTGTGGTACAAGAAAGATAA   1991
+                     ||||||||||||||||||||||||||||||||||||||||||||||||||
+ENSONIT000000     51 GTCCGGATAGCCGACAGCGACAGGGGCTGCCTGTGGTACAAGAAAGATAA    100
+
+ENSONIT000000   1992 C   1992
+                     |
+ENSONIT000000    101 C    101
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: ENSONIT00000001474
+# 2: ENSONIT00000001474
+# Matrix: EDNAFULL
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 22
+# Identity:      22/22 (100.0%)
+# Similarity:    22/22 (100.0%)
+# Gaps:           0/22 ( 0.0%)
+# Score: 110.0
+# 
+#
+#=======================================
+
+ENSONIT000000   1993 CATGCAAGATGTTATTTTAAAG   2014
+                     ||||||||||||||||||||||
+ENSONIT000000      1 CATGCAAGATGTTATTTTAAAG     22
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: ENSONIT00000001474
+# 2: ENSONIT00000001474
+# Matrix: EDNAFULL
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 52
+# Identity:      52/52 (100.0%)
+# Similarity:    52/52 (100.0%)
+# Gaps:           0/52 ( 0.0%)
+# Score: 260.0
+# 
+#
+#=======================================
+
+ENSONIT000000   2015 CCTACGTCAGATTCCACTTAATCTCTCCAGTAATCCAGCAATCCGCTAAG   2064
+                     ||||||||||||||||||||||||||||||||||||||||||||||||||
+ENSONIT000000      1 CCTACGTCAGATTCCACTTAATCTCTCCAGTAATCCAGCAATCCGCTAAG     50
+
+ENSONIT000000   2065 AA   2066
+                     ||
+ENSONIT000000     51 AA     52
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: ENSONIT00000001474
+# 2: ENSONIT00000001474
+# Matrix: EDNAFULL
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 151
+# Identity:     151/151 (100.0%)
+# Similarity:   151/151 (100.0%)
+# Gaps:           0/151 ( 0.0%)
+# Score: 755.0
+# 
+#
+#=======================================
+
+ENSONIT000000   2067 TGTGGTCTTGTTTGACCTTCTGGTAAACATTCTGGGCCACAACCTGGCAG   2116
+                     ||||||||||||||||||||||||||||||||||||||||||||||||||
+ENSONIT000000      1 TGTGGTCTTGTTTGACCTTCTGGTAAACATTCTGGGCCACAACCTGGCAG     50
+
+ENSONIT000000   2117 AGCCAGCCTATGAGGCTGAAGTGGCCCAGTTGGAGTATAAACTGGTTGCT   2166
+                     ||||||||||||||||||||||||||||||||||||||||||||||||||
+ENSONIT000000     51 AGCCAGCCTATGAGGCTGAAGTGGCCCAGTTGGAGTATAAACTGGTTGCT    100
+
+ENSONIT000000   2167 GGTGAGCACGGACTGGTCATCAAAGTTAAAGGATTTAACCACAAGCTTCC   2216
+                     ||||||||||||||||||||||||||||||||||||||||||||||||||
+ENSONIT000000    101 GGTGAGCACGGACTGGTCATCAAAGTTAAAGGATTTAACCACAAGCTTCC    150
+
+ENSONIT000000   2217 T   2217
+                     |
+ENSONIT000000    151 T    151
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: ENSONIT00000001474
+# 2: ENSONIT00000001474
+# Matrix: EDNAFULL
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 128
+# Identity:     128/128 (100.0%)
+# Similarity:   128/128 (100.0%)
+# Gaps:           0/128 ( 0.0%)
+# Score: 640.0
+# 
+#
+#=======================================
+
+ENSONIT000000   2218 TTGATGTTTCACCTGATCATTGACCACCTGGCAGATTTCTCGGCCTCCCC   2267
+                     ||||||||||||||||||||||||||||||||||||||||||||||||||
+ENSONIT000000      1 TTGATGTTTCACCTGATCATTGACCACCTGGCAGATTTCTCGGCCTCCCC     50
+
+ENSONIT000000   2268 TGACGTCTTCAGCATGTTCGCAGAGCAGCTCAAAAAGACCTACTTCAACA   2317
+                     ||||||||||||||||||||||||||||||||||||||||||||||||||
+ENSONIT000000     51 TGACGTCTTCAGCATGTTCGCAGAGCAGCTCAAAAAGACCTACTTCAACA    100
+
+ENSONIT000000   2318 TCCTCATTAAACCTGAGAAACTCAGCAA   2345
+                     ||||||||||||||||||||||||||||
+ENSONIT000000    101 TCCTCATTAAACCTGAGAAACTCAGCAA    128
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: ENSONIT00000001474
+# 2: ENSONIT00000001474
+# Matrix: EDNAFULL
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 163
+# Identity:     163/163 (100.0%)
+# Similarity:   163/163 (100.0%)
+# Gaps:           0/163 ( 0.0%)
+# Score: 815.0
+# 
+#
+#=======================================
+
+ENSONIT000000   2346 GGACGTGCGCTTGTTGATCTTGGAGCACTCTCGCTGGTCCATGGTGGACA   2395
+                     ||||||||||||||||||||||||||||||||||||||||||||||||||
+ENSONIT000000      1 GGACGTGCGCTTGTTGATCTTGGAGCACTCTCGCTGGTCCATGGTGGACA     50
+
+ENSONIT000000   2396 AATATCAGGCTCTAACAGCTGGTTTGACCACTGAAGAGCTGACGGAGTTC   2445
+                     ||||||||||||||||||||||||||||||||||||||||||||||||||
+ENSONIT000000     51 AATATCAGGCTCTAACAGCTGGTTTGACCACTGAAGAGCTGACGGAGTTC    100
+
+ENSONIT000000   2446 AGCCGGAGCTTCAGAGCTGAGCTCTTTGCAGAGGGACTGGTGCAAGGGAA   2495
+                     ||||||||||||||||||||||||||||||||||||||||||||||||||
+ENSONIT000000    101 AGCCGGAGCTTCAGAGCTGAGCTCTTTGCAGAGGGACTGGTGCAAGGGAA    150
+
+ENSONIT000000   2496 CTTTAGCAGTGCA   2508
+                     |||||||||||||
+ENSONIT000000    151 CTTTAGCAGTGCA    163
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: ENSONIT00000001474
+# 2: ENSONIT00000001474
+# Matrix: EDNAFULL
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 32
+# Identity:      32/32 (100.0%)
+# Similarity:    32/32 (100.0%)
+# Gaps:           0/32 ( 0.0%)
+# Score: 160.0
+# 
+#
+#=======================================
+
+ENSONIT000000   2509 GAGTCTGTGCAGTTTCTGCAATATGTCACAGA   2540
+                     ||||||||||||||||||||||||||||||||
+ENSONIT000000      1 GAGTCTGTGCAGTTTCTGCAATATGTCACAGA     32
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: ENSONIT00000001474
+# 2: ENSONIT00000001474
+# Matrix: EDNAFULL
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 139
+# Identity:     139/139 (100.0%)
+# Similarity:   139/139 (100.0%)
+# Gaps:           0/139 ( 0.0%)
+# Score: 695.0
+# 
+#
+#=======================================
+
+ENSONIT000000   2541 TAAGTTGCAGTTCTCCAAGCTGACAGCAGAGGTACCAGTGATGTTCCGAG   2590
+                     ||||||||||||||||||||||||||||||||||||||||||||||||||
+ENSONIT000000      1 TAAGTTGCAGTTCTCCAAGCTGACAGCAGAGGTACCAGTGATGTTCCGAG     50
+
+ENSONIT000000   2591 TGGTCGAGCTTCCACAGAAGCACCACATCTGTAAGGTCAAATCACTGAAT   2640
+                     ||||||||||||||||||||||||||||||||||||||||||||||||||
+ENSONIT000000     51 TGGTCGAGCTTCCACAGAAGCACCACATCTGTAAGGTCAAATCACTGAAT    100
+
+ENSONIT000000   2641 AAAGGAGACGCCAACTCGGAAGTCACTGTTTACTACCAG   2679
+                     |||||||||||||||||||||||||||||||||||||||
+ENSONIT000000    101 AAAGGAGACGCCAACTCGGAAGTCACTGTTTACTACCAG    139
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: ENSONIT00000001474
+# 2: ENSONIT00000001474
+# Matrix: EDNAFULL
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 48
+# Identity:      48/48 (100.0%)
+# Similarity:    48/48 (100.0%)
+# Gaps:           0/48 ( 0.0%)
+# Score: 240.0
+# 
+#
+#=======================================
+
+ENSONIT000000   2680 TCTGGCCCCAAGGCTTTAAGGGAGCACACGCTGATGGAGCTGTTGGTG   2727
+                     ||||||||||||||||||||||||||||||||||||||||||||||||
+ENSONIT000000      1 TCTGGCCCCAAGGCTTTAAGGGAGCACACGCTGATGGAGCTGTTGGTG     48
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: ENSONIT00000001474
+# 2: ENSONIT00000001474
+# Matrix: EDNAFULL
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 53
+# Identity:      53/53 (100.0%)
+# Similarity:    53/53 (100.0%)
+# Gaps:           0/53 ( 0.0%)
+# Score: 265.0
+# 
+#
+#=======================================
+
+ENSONIT000000   2728 ATGCACATGGAGGAACCCTGCTTTGATTTCCTCAGGACCAAAGAGACTCT   2777
+                     ||||||||||||||||||||||||||||||||||||||||||||||||||
+ENSONIT000000      1 ATGCACATGGAGGAACCCTGCTTTGATTTCCTCAGGACCAAAGAGACTCT     50
+
+ENSONIT000000   2778 GGG   2780
+                     |||
+ENSONIT000000     51 GGG     53
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: ENSONIT00000001474
+# 2: ENSONIT00000001474
+# Matrix: EDNAFULL
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 84
+# Identity:      84/84 (100.0%)
+# Similarity:    84/84 (100.0%)
+# Gaps:           0/84 ( 0.0%)
+# Score: 420.0
+# 
+#
+#=======================================
+
+ENSONIT000000   2781 ATACCATGTCTACCCCACCTGCAGAAACACCTCAGGCGTTCTAGGTTTCT   2830
+                     ||||||||||||||||||||||||||||||||||||||||||||||||||
+ENSONIT000000      1 ATACCATGTCTACCCCACCTGCAGAAACACCTCAGGCGTTCTAGGTTTCT     50
+
+ENSONIT000000   2831 CTGTCACAGTGGAGACACAGGCCACGAAGTTCAA   2864
+                     ||||||||||||||||||||||||||||||||||
+ENSONIT000000     51 CTGTCACAGTGGAGACACAGGCCACGAAGTTCAA     84
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: ENSONIT00000001474
+# 2: ENSONIT00000001474
+# Matrix: EDNAFULL
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 91
+# Identity:      91/91 (100.0%)
+# Similarity:    91/91 (100.0%)
+# Gaps:           0/91 ( 0.0%)
+# Score: 455.0
+# 
+#
+#=======================================
+
+ENSONIT000000   2865 CACCGAGCTGGTGGAGTTAAAGATTGAAGAGTTCTTGGCTTCATTCGGAG   2914
+                     ||||||||||||||||||||||||||||||||||||||||||||||||||
+ENSONIT000000      1 CACCGAGCTGGTGGAGTTAAAGATTGAAGAGTTCTTGGCTTCATTCGGAG     50
+
+ENSONIT000000   2915 AGAAGCTCAATGCACTGACTGAGGAGGCCTTTAATACTCAG   2955
+                     |||||||||||||||||||||||||||||||||||||||||
+ENSONIT000000     51 AGAAGCTCAATGCACTGACTGAGGAGGCCTTTAATACTCAG     91
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: ENSONIT00000001474
+# 2: ENSONIT00000001474
+# Matrix: EDNAFULL
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 117
+# Identity:     117/117 (100.0%)
+# Similarity:   117/117 (100.0%)
+# Gaps:           0/117 ( 0.0%)
+# Score: 585.0
+# 
+#
+#=======================================
+
+ENSONIT000000   2956 GTGACTGCTTTAGTAAAGCTCAAAGAGTGCGAGGACACACATCTTGGTGA   3005
+                     ||||||||||||||||||||||||||||||||||||||||||||||||||
+ENSONIT000000      1 GTGACTGCTTTAGTAAAGCTCAAAGAGTGCGAGGACACACATCTTGGTGA     50
+
+ENSONIT000000   3006 GGAGGTGGACAGGAACTGGGCGGAGGTGGTTACGCAGCAGTATGTGTTCG   3055
+                     ||||||||||||||||||||||||||||||||||||||||||||||||||
+ENSONIT000000     51 GGAGGTGGACAGGAACTGGGCGGAGGTGGTTACGCAGCAGTATGTGTTCG    100
+
+ENSONIT000000   3056 ATAGGCTCAATAGAGAG   3072
+                     |||||||||||||||||
+ENSONIT000000    101 ATAGGCTCAATAGAGAG    117
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: ENSONIT00000001474
+# 2: ENSONIT00000001474
+# Matrix: EDNAFULL
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 90
+# Identity:      90/90 (100.0%)
+# Similarity:    90/90 (100.0%)
+# Gaps:           0/90 ( 0.0%)
+# Score: 450.0
+# 
+#
+#=======================================
+
+ENSONIT000000   3073 ATCGAGGCTCTGAAACAGATGACGAGAGATGAACTCGTCTCTTGGTTCAA   3122
+                     ||||||||||||||||||||||||||||||||||||||||||||||||||
+ENSONIT000000      1 ATCGAGGCTCTGAAACAGATGACGAGAGATGAACTCGTCTCTTGGTTCAA     50
+
+ENSONIT000000   3123 AGAACATCGTGGACAGAGCAGCAGGAAGCTCAGTGTGCAT   3162
+                     ||||||||||||||||||||||||||||||||||||||||
+ENSONIT000000     51 AGAACATCGTGGACAGAGCAGCAGGAAGCTCAGTGTGCAT     90
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: ENSONIT00000001474
+# 2: ENSONIT00000001474
+# Matrix: EDNAFULL
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 70
+# Identity:      70/70 (100.0%)
+# Similarity:    70/70 (100.0%)
+# Gaps:           0/70 ( 0.0%)
+# Score: 350.0
+# 
+#
+#=======================================
+
+ENSONIT000000   3163 GTGGTGGGATTTGGTGCTGAAGAGAATGATGAGGAGGGTAGTGGTGAAAA   3212
+                     ||||||||||||||||||||||||||||||||||||||||||||||||||
+ENSONIT000000      1 GTGGTGGGATTTGGTGCTGAAGAGAATGATGAGGAGGGTAGTGGTGAAAA     50
+
+ENSONIT000000   3213 GCAGGAAGAAAAAGGCAAAG   3232
+                     ||||||||||||||||||||
+ENSONIT000000     51 GCAGGAAGAAAAAGGCAAAG     70
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: ENSONIT00000001474
+# 2: ENSONIT00000001474
+# Matrix: EDNAFULL
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 131
+# Identity:     131/131 (100.0%)
+# Similarity:   131/131 (100.0%)
+# Gaps:           0/131 ( 0.0%)
+# Score: 655.0
+# 
+#
+#=======================================
+
+ENSONIT000000   3233 CCTATGGTGAAGTGTCTAAGCTTACTTTCCTTCCCGCCTCTCCCAAAGTG   3282
+                     ||||||||||||||||||||||||||||||||||||||||||||||||||
+ENSONIT000000      1 CCTATGGTGAAGTGTCTAAGCTTACTTTCCTTCCCGCCTCTCCCAAAGTG     50
+
+ENSONIT000000   3283 GAAGGTGCCATAGCCATCATGGACATTCCTGCTTTCACTGAAGGCCTGCC   3332
+                     ||||||||||||||||||||||||||||||||||||||||||||||||||
+ENSONIT000000     51 GAAGGTGCCATAGCCATCATGGACATTCCTGCTTTCACTGAAGGCCTGCC    100
+
+ENSONIT000000   3333 GCTCTTTCCCTACCACAAGATACTTAAATAA   3363
+                     |||||||||||||||||||||||||||||||
+ENSONIT000000    101 GCTCTTTCCCTACCACAAGATACTTAAATAA    131
+
+
+#---------------------------------------
+#---------------------------------------
