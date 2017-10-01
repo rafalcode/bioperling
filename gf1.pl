@@ -1,6 +1,6 @@
 #!/usr/bin/env perl
 # ref. http://bioperl.org/howtos/Features_and_Annotations_HOWTO.html
-# Selective printing now please.
+# Selective: will only record unique ranges: which means no cdS and mRNA basically.
 use warnings;
 use strict;
 use Data::Dumper;
@@ -12,8 +12,16 @@ if(scalar @ARGV != 1) {
     die;
 }
 
-my ($gffio, $feature, $t, $t2, $ti, $ts, $te, $ti2, $val);
+my ($gffio, $feature, $t, $t2, $ti, $ts, $te, $td, $ti2, $val);
+# to keep old values
+my $tio='';
+my $tso=0;
+my $teo=0;
+my $tdo=0;
+
+my @tt;
 my $nfeats=0;
+my $nufeats=0; # unique features
 
 $gffio = Bio::Tools::GFF->new(-file => $ARGV[0], -gff_version => 3);
 # loop over the input stream
@@ -23,22 +31,27 @@ while ($feature = $gffio->next_feature()) { # each feature is a line ... no conn
 	$ti=$feature->seq_id();
 	$ts=$feature->location->start;
 	$te=$feature->location->end;
-	$ti2=$feature->location->end;
-	print "primary tag: $t at $ti: $ts to $te\n";
-	for $t2 ($feature->get_all_tags) { # subtags, actually.
-		print "  tag: ", $t2, "\n";
-	    for my $val ($feature->get_tag_values($t2)) {
-			print "    value: ", $val, "\n";
-		}
+	$td=$feature->location->strand;
+	# we going to grab the Name subtag ... better than ID subtag which gives same name to gene and CDS
+	if($feature->has_tag('Name')) {
+		@tt=$feature->get_tag_values('Name');
 	}
+	# we're only interested in unique ranges:
+	# print "olds $tio on strand $tdo: $tso to $teo\n";
+	# print "news $ti on strand $td: $ts to $te\n";
+	if( $tio ne $ti) {
+		$nufeats++;
+		print "Beginning new chromosome: primary tag: $t at $ti on strand $td: $ts to $te: nameval=$tt[0]\n";
+	} elsif ( ($tso != $ts) & ($teo != $te) & ($tdo != $td) ) {
+		$nufeats++;
+		print "primary tag: $t at $ti on strand $td: $ts to $te: nameval=$tt[0]\n";
+	}
+	#bow out by assigning old values:
+	$tio=$ti;
+	$tso=$ts;
+	$teo=$te;
+	$tdo=$td;
 }
 
-# more compact?
-# # nah, this needs an array.
-# my @cdsfs = grep { $_->primary_tag eq 'CDS' } $gffio->next_feature();
-# my $cdsfsz=scalar @cdsfs;
-
-
 $gffio->close();
-print "Num features = $nfeats\n";
-# print "Sz cds array = $cdsfsz\n";
+print "Num unique features = $nufeats\n";
