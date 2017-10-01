@@ -51,21 +51,22 @@ while ($feature = $gffio->next_feature()) { # each feature is a line ... no conn
 	# we're only interested in unique ranges:
 	# print "olds $tio on strand $tdo: $tso to $teo\n";
 	# print "news $ti on strand $td: $ts to $te\n";
-	if( $tio ne $ti) { # a new primary feature
+	if( $tio ne $ti) { # if the chromosome is different.
 		$hofn{$tt[0]}=[$t, $ti, $td, $ts, $te];
 		$hopf{$t}++;
 		$honc{$tto}=$nchil if defined $tto; # primfeat is new ... assign this value to previous.
-		print "tto is $tto assigned $nchil\n" if defined $tto;
+		print "blk1: tto is $tto assigned $nchil while tt0 is $tt[0]\n" if defined $tto;
 		$tto=$tt[0];
 		$nchil=0;
-	} elsif ( ($tso != $ts) & ($teo != $te) & ($tdo != $td) ) { # in the case where the primfeature is the same, but has different range and strand values.
+	} elsif ( ($tso != $ts) & ($teo != $te) & ($tdo != $td) ) { # chromosome is the same but range is different: ignore identical ranges with differnet names.
 		$hofn{$tt[0]}=[$t, $ti, $td, $ts, $te];
 		$hopf{$t}++; # to count the primary features.
 		$honc{$tto}=$nchil if defined $tto;
-		print "tto is $tto assigned $nchil\n" if defined $tto;
+		print "blk2: tto is $tto assigned $nchil while tt0 is $tt[0]\n" if defined $tto;
 		$tto=$tt[0];
 		$nchil=0;
 	} elsif ( ($tso <= $ts) & ($teo >= $te) & ($tdo == $td) ) {
+		print "Now: $tt[0] prev: $tto: ($tso <= $ts) ($teo >= $te) ($tdo == $td)\n";
 		$nchil++;
 	}
 	#bow out by assigning old values:
