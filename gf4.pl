@@ -42,7 +42,7 @@ my %honc; # hash of name of the feature: count of children
 my %hopf; # hash of primary features.
 my $nchil=0;
 my %hochil;
-
+my $withinregion=0;
 $gffio = Bio::Tools::GFF->new(-file => $ARGV[0], -gff_version => 3);
 # loop over the input stream
 while ($feature = $gffio->next_feature()) { # each feature is a line ... no connection between them, unless you match ID.
@@ -53,8 +53,8 @@ while ($feature = $gffio->next_feature()) { # each feature is a line ... no conn
 	$te=$feature->location->end;
 	$td=$feature->location->strand;
 	# we going to grab the Name subtag ... better than ID subtag which gives same name to gene and CDS
-	if($feature->has_tag('Name')) {
-		@tt=$feature->get_tag_values('Name');
+	if($feature->has_tag('ID')) { # I was using Name  s it distinguishes between mRNA and CDS, but ID is usually more dependable
+		@tt=$feature->get_tag_values('ID'); 
 	}
 	if( $tio ne $ti) { # if the chromosome is different, we definitely want to start a new dict.
 		$hofn{$tt[0]}=[$t, $ti, $td, $ts, $te];
@@ -67,7 +67,7 @@ while ($feature = $gffio->next_feature()) { # each feature is a line ... no conn
 		$teo=$te;
 		$tdo=$td;
 		$nchil=0;
-	} elsif ( $t eq 'gene') { # importatn enough to have its own branch conditional
+	} elsif ( $t eq 'region') { # these usually encapsulate a gene, but you lose the gene name ... give them their own line or filter out.
 		$hofn{$tt[0]}=[$t, $ti, $td, $ts, $te];
 		$hopf{$t}++; # to count the primary features.
 		$honc{$tto}=$nchil if $tto;
@@ -78,6 +78,19 @@ while ($feature = $gffio->next_feature()) { # each feature is a line ... no conn
 		$teo=$te;
 		$tdo=$td;
 		$nchil=0;
+		$withinregion=0; # set to 1 if you want gene to absorbed (and then loseq
+	} elsif ( ($t eq 'gene') & !($withinregion) ) { # importatn enough to have its own branch conditional
+		$hofn{$tt[0]}=[$t, $ti, $td, $ts, $te];
+		$hopf{$t}++; # to count the primary features.
+		$honc{$tto}=$nchil if $tto;
+		$tto=$tt[0];
+		$to=$t;
+		$tio=$ti;
+		$tso=$ts;
+		$teo=$te;
+		$tdo=$td;
+		$nchil=0;
+		$withinregion=0;
 	} elsif ( ($to ne $t) & ($tso < $ts) & ($teo < $te) ) { # chromosome is the same but feature is new and range is different: ignore identical ranges with differnet names.
 		$hofn{$tt[0]}=[$t, $ti, $td, $ts, $te];
 		$hopf{$t}++; # to count the primary features.
