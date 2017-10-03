@@ -107,19 +107,17 @@ while ($feature = $gffio->next_feature()) { # each feature is a line ... no conn
 		$nchil++;
 	}
 }
-print "last primfeat $t\n";
-
 $honc{$tto}=$nchil;
 $gffio->close();
 
 my $l;
 my $nufeats=0;
-print "hopf keys =\n";
+print "Summary of feature types for this file (datastruct hopf) =\n";
 foreach my $k (keys %hopf) {
-	print "$k # $hopf{$k}\n";
+	print "$k\t$hopf{$k}\n";
 	$nufeats += $hopf{$k};
 }
-print "\n>>> In total, quantity unique features = $nufeats\n";
+print "\nTOTAL\t$nufeats\n";
 
 # use subroutine to print hash
 printohchrom(\%hofn, \%honc, \%hochil);
